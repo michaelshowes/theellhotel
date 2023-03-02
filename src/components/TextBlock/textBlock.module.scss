@@ -1,0 +1,14 @@
+.textBlock {
+	@include grid-placement;
+
+	h2 {
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.inner {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,25 @@
+.header {
+  grid-area: header;
+  background-color: lightgray;
+
+  padding: 30px 0;
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav {
+
+    ul {
+      display: flex;
+
+      li {
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-left: 20px;
+      }
+    }
+  }
+}

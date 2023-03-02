@@ -1,0 +1,4 @@
+.spacer {
+	$mobile-margin: $component-margin * 0.4;
+	height: clamp($mobile-margin, 12vw, $component-margin);
+}
